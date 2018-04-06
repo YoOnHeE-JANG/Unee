@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.CheckBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefWidth="900.0"
+	prefHeight="730.0">
+
+	<Label text="장비 대여 현황" layoutX="30.0" layoutY="30.0" />
+	<TextField fx:id="txtP_Name" layoutX="30.0" layoutY="50.0"
+		prefWidth="100.0" promptText="대관자명"></TextField>
+	<Button fx:id="btnR_Search" layoutX="140.0" layoutY="50.0">검색</Button>
+	<Button fx:id="btnR_Edit" layoutX="707.0" layoutY="26.0">장비대여 등록</Button>
+	<Button fx:id="btnR_Delete" layoutX="805.0" layoutY="26.0">정보삭제</Button>
+	<Button fx:id="btnR_Return" layoutX="735.0" layoutY="50.0">장비반납</Button>
+	<Button fx:id="btnR_Damage" layoutX="805.0" layoutY="50.0">파손등록</Button>
+
+	<TableView fx:id="RentalView" layoutX="30.0" layoutY="75.0"
+		prefWidth="840.0" prefHeight="150.0" />
+	<Separator layoutX="15.0" layoutY="240.0" prefWidth="870.0" />
+	<Separator layoutX="15.0" layoutY="243.0" prefWidth="870.0" />
+	<Separator orientation="VERTICAL" layoutX="280.0" layoutY="290.0"
+		prefHeight="30.0" />
+		
+	<Separator orientation="VERTICAL" layoutX="130.0" layoutY="290.0"
+		prefHeight="300.0" />
+		<Separator orientation="VERTICAL" layoutX="128.0" layoutY="322.0" prefHeight="270.0"/>
+
+	<Label text="장비 대여 등록" layoutX="30.0" layoutY="265.0" />
+	<Separator layoutX="30.0" layoutY="290.0" prefWidth="840.0" />
+	<Separator layoutX="30.0" layoutY="320.0" prefWidth="840.0" />
+	<Separator layoutX="30.0" layoutY="321.0" prefWidth="840.0"/>
+	<Label text="대  관  자  명" layoutX="47.0" layoutY="297.0" />
+	<TextField fx:id="txtP_Name" layoutX="135.0" layoutY="294.0"
+		prefWidth="143.0" />
+	<Separator orientation="VERTICAL" layoutX="30.0" layoutY="290.0"
+		prefHeight="300.0" />
+	<Separator orientation="VERTICAL" layoutX="870.0" layoutY="290.0"
+		prefHeight="300.0" />
+	<Separator orientation="VERTICAL" layoutX="450.0" layoutY="290.0"
+		prefHeight="30.0" />
+	<Separator orientation="VERTICAL" layoutX="718.0" layoutY="290.0"
+		prefHeight="30.0" />
+
+	<Label text="장 비   대 여 일 / 반 납 일" layoutX="296.0" layoutY="297.0" />
+	<DatePicker fx:id="dpR_Start" layoutX="455.0" layoutY="294.5"
+		prefWidth="120.0" />
+	<Label text=" ~ " layoutX="578.0" layoutY="297.0" />
+	<DatePicker fx:id="dpR_End" layoutX="595.0" layoutY="294.5"
+		prefWidth="120.0" />
+	<Button fx:id="btnR_CostInfo" layoutX="748.0" layoutY="294.5">대여비용정보</Button>
+
+	<Separator layoutX="30.0" layoutY="410.0" prefWidth="840.0" />
+	<Separator layoutX="30.0" layoutY="500.0" prefWidth="840.0" />
+	<Separator layoutX="30.0" layoutY="590.0" prefWidth="840.0"/>
+	
+	<Label text="장  치 " layoutX="64.0" layoutY="335.0"/>
+	<Label text=" 및      " layoutX="68.0" layoutY="360.0"/>
+	<Label text="시  설" layoutX="64.0" layoutY="385.0"/>
+	
+	<CheckBox
+	
+
+
+
+
+</AnchorPane>
